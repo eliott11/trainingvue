@@ -1,4 +1,7 @@
 <template>
+<head>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dongle">
+</head>
   <Menu />
   <Header />
   <Cards />
@@ -32,8 +35,9 @@ export default {
 </script>
 
 <style>
-h3 {
-    color: #0B80D8;
-    margin: 1em;
+
+template {
+  font-family: "Dongle";
 }
+
 </style>

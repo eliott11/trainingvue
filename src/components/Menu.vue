@@ -1,13 +1,13 @@
 <template>
     <section id="menu">
-        <div class="logotitle">
+        <div class="headernav">
           <div class="cloudlogo">
             <img src="../assets/cloudlogo.png">
           </div>
-          <div><h3>cloudcash</h3></div>
+          <div class="titlelogo">cloudcash</div>
         </div>
         <ul>
-            <li><img src="" alt=""><a href="">Overview</a></li>
+            <li><img src=""><a href="">Overview</a></li>
             <li><a href="">Transactions</a></li>
             <li><a href="">Cards</a></li>
             <li><a href="">Invoices</a></li>
@@ -31,17 +31,23 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 
-.logotitle {
+.headernav {
   display: flex;
 }
 .cloudlogo {
   display: flex;
   align-items: center;
 }
+.titlelogo {
+  font-weight: bolder;
+  color: #0f4366;
+  font: 1.7rem "Dongle";
+}
 img {
-  width: 45px;
+  width: 40px;
   height: auto;
   display: flex;
+  margin: 8px;
 }
 ul {
   list-style-type: none;
