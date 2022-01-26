@@ -1,7 +1,7 @@
 # trainingvue
 
 ### What is it ?
-This project is an integration training in vue.js, see the page inspiration [here](https://www.figma.com/file/ay4ii6IxZ5L7SSglj1rVG3/Financial-Dashboard-(Community)?node-id=0%3A1)
+This project is an integration training in vue.js, see the page inspiration [here](https://www.figma.com/file/ay4ii6IxZ5L7SSglj1rVG3/Financial-Dashboard-(Community)?node-id=0%3A1).
 
 ## Project setup
 ```
@@ -25,7 +25,7 @@ npm run lint
 ```
 
 ### Icons source
-Link : [Bootstrap Icons Library](https://icons.getbootstrap.com/)
+Link : [Bootstrap Icons Library](https://icons.getbootstrap.com/).
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
