@@ -20,7 +20,7 @@ export default {
 </script>
 
 <style scoped>
-template {
+div {
   font-family: "Dongle";
   display: flex;
 }

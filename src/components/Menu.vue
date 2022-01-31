@@ -34,15 +34,13 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-template {
-  display: flex;
-}
 section {
-  display: inline-block;
-  margin: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   font-family: "Dongle";
   width: 300px;
-  height: 100%;
+  justify-content: left;
 }
 .headernav {
   display: flex;
@@ -65,7 +63,6 @@ section {
 ul {
   list-style-type: none;
   padding: 10px 10px 0px 10px; /*haut droite bas gauche*/
-  display: inline-block;
   margin: 0 auto;
 }
 li {

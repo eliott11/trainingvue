@@ -1,20 +1,19 @@
 <template>
-<section class="header">
-  <div>
-    <h3>Weekly sumup</h3>
-    <h6>Get summary of your weekly online transactions here.</h6>
-  </div>
-  <div class="headMenu">
-    <i class="bi bi-envelope-fill"></i>
-    <i class="bi bi-bell-fill"></i>
-    <i></i>
+  <section class="header">
     <div>
-      <p>Eliott</p>
-      <p>Admin Account</p>
+      <h3>Weekly sumup</h3>
+      <h6>Get summary of your weekly online transactions here.</h6>
     </div>
-  </div>
-  
-</section>
+    <div class="headMenu">
+      <i class="bi bi-envelope-fill"></i>
+      <i class="bi bi-bell-fill"></i>
+      <i></i>
+      <div>
+        <p>Eliott</p>
+        <p>Admin Account</p>
+      </div>
+    </div>
+  </section>
 </template>
 
 <script>
@@ -28,7 +27,6 @@ export default {
 <style scoped>
 
 section {
-  display: inline-block;
   font-family: "Dongle";
   display: flex;
 }
