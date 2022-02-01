@@ -5,7 +5,7 @@
       <h6>Get summary of your weekly online transactions here.</h6>
     </div>
     <div class="headMenu">
-      <i class="bi bi-envelope-fill"></i>
+      <i class="bi bi-envelope-fill" fill="#0786db"></i>
       <i class="bi bi-bell-fill"></i>
       <i class="bi bi-person-circle"></i>
       <div>
@@ -25,10 +25,12 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-section {
+.header {
   font-family: "Dongle";
   display: flex;
-  width: auto;
+  align-items: center;
+  position: relative;
+  justify-content: space-between;
   padding: 0 10px;
 }
 h3 {
@@ -44,6 +46,12 @@ h6 {
 }
 h6, div i, div p {
   color: #C7C7C7;
+}
+i .bi-person-circle {
+  color: rgb(19, 171, 241);
+}
+i {
+  margin-right: 20px;
 }
 p {
   margin: 0 auto;

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="content">
     <Header />
     <Cards />
     <TransactionHistory />
@@ -36,9 +36,9 @@ export default {
     display: flex;
     float: right;
   }
-  div {
-    align-items: flex-start;
+  .content {
+    width: 100%;
     flex-direction: column;
-    margin-left: 10px;
+    padding-left: 10px;
   }
 </style>

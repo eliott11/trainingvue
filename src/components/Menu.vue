@@ -1,20 +1,20 @@
 <template>
     <section id="menu">
         <div class="menu__topnav">
-            <div class="menu__topnav__headernav">
-            <div class="menu__topnav__cloudlogo">
+            <div class="headernav">
+            <div class="cloudlogo">
               <img src="../assets/cloudlogo.png">
             </div>
-            <div class="menu__topnav__titlelogo">cloudcash</div>
-          </div>
-          <ul class="menu__navmenu">
-              <li><i class="bi bi-graph-up"></i><a href="">Overview</a></li>
-              <li><i class="bi bi-list-ul"></i><a href="">Transactions</a></li>
-              <li><i class="bi bi-credit-card"></i><a href="">Cards</a></li>
-              <li><i class="bi bi-file-earmark"></i><a href="">Invoices</a></li>
-              <li><i class="bi bi-bookmark-star"></i><a href="">Goals</a></li>
-              <li><i class="bi bi-gear"></i><a href="">Settings</a></li>
-          </ul>
+            <div class="titlelogo">cloudcash</div>
+        </div>
+        <ul class="menu__navmenu">
+            <li><i class="bi bi-graph-up"></i><a href="">Overview</a></li>
+            <li><i class="bi bi-list-ul"></i><a href="">Transactions</a></li>
+            <li><i class="bi bi-credit-card"></i><a href="">Cards</a></li>
+            <li><i class="bi bi-file-earmark"></i><a href="">Invoices</a></li>
+            <li><i class="bi bi-bookmark-star"></i><a href="">Goals</a></li>
+            <li><i class="bi bi-gear"></i><a href="">Settings</a></li>
+        </ul>
         </div>
         <div class="menu__navdescription">
             <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="#0786db" class="bi bi-cloud-upload" viewBox="0 0 16 16">
@@ -42,7 +42,7 @@ export default {
   justify-content: space-between;
   font-family: "Dongle";
   width: 230px;
-  height: 94vh;
+  height: calc(100vh - 36px);
   padding: 25px 0 10px 0;
   border-right: solid 2px #c7c7c7 ;
 }
@@ -50,25 +50,24 @@ export default {
   display: flex;
   flex-direction: column;
 }
-.menu__topnav__headernav {
+.headernav {
   display: flex;
   justify-content: center;
   margin-bottom: 30px;
 }
-.menu__topnav__cloudlogo {
+.cloudlogo {
   display: flex;
   align-items: center;
   margin: 5px;
 }
-.menu__topnav__titlelogo {
+.titlelogo {
   font-weight: bolder;
   color: #0f4366;
   font-size: 1.8rem;
 }
-.menu__topnav__cloudlogo img {
+.cloudlogo img {
   height: 25px;
   display: flex;
-  
 }
 .menu__navmenu {
   color: #C7C7C7;
