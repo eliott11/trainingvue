@@ -23,6 +23,7 @@ export default {
 div {
   font-family: "Dongle";
   display: flex;
+  /* max-height: 100vh;
+  overflow: auto; */
 }
-
 </style>

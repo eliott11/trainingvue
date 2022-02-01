@@ -34,6 +34,11 @@ export default {
 <style scoped>
   template {
     display: flex;
-    justify-content: right;
+    float: right;
+  }
+  div {
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 10px;
   }
 </style>

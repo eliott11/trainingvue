@@ -7,7 +7,7 @@
     <div class="headMenu">
       <i class="bi bi-envelope-fill"></i>
       <i class="bi bi-bell-fill"></i>
-      <i></i>
+      <i class="bi bi-person-circle"></i>
       <div>
         <p>Eliott</p>
         <p>Admin Account</p>
@@ -25,18 +25,20 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
 section {
   font-family: "Dongle";
   display: flex;
+  width: auto;
+  padding: 0 10px;
 }
 h3 {
-  font-size: 5.5rem;
-  font-weight: 800;
-  margin: 0 auto;
+  font-size: 66px;
+  font-weight: normal;
+  margin: -10px 0;
+  color: #404040;
 }
 h6 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: lighter;
   margin: 0 auto;
 }
@@ -48,7 +50,6 @@ p {
 }
 .headMenu {
   display: flex;
-  justify-content: flex-end;
   align-items: center;
 }
 </style>
