@@ -41,7 +41,7 @@ export default {
   flex-direction: column;
   justify-content: space-between;
   font-family: "Dongle";
-  width: 270px;
+  width: 220px;
   height: calc(100vh - 46px);
   padding: 25px 0 20px 0;
   border-right: solid 2px #c7c7c7;
