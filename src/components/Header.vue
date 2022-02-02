@@ -30,10 +30,8 @@ export default {
 .header {
   font-family: "Dongle";
   display: flex;
-  align-items: center;
-  position: relative;
-  justify-content: space-between;
   padding: 0;
+  justify-content: space-between;
 }
 h3 {
   font-size: 66px;
@@ -61,7 +59,6 @@ div.headmenu__icons {
   font-size: 2rem;
   margin-right: 10px;
   color: #FFC145;
-  align-items: center;
 }
 .bi-envelope-fill, .bi-bell-fill, .bi-person-circle {
   display: flex;

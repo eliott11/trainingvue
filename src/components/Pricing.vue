@@ -1,6 +1,6 @@
 <template>
   <div>
-    Princing
+    <h4>Princing</h4>
   </div>
 </template>
 

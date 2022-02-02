@@ -1,6 +1,6 @@
 <template>
   <div>
-    New Transaction
+    <h4>New Transaction</h4>
   </div>
 </template>
 

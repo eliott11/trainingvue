@@ -1,6 +1,12 @@
 <template>
   <section class="cards">
     <h4>Cards</h4>
+    <div>
+      <div class="card">
+
+      </div>
+      <div class="card-stats"></div>
+    </div>
   </section>
 </template>
 
@@ -17,10 +23,7 @@ export default {
 <style scoped>
 template {
   border-radius: 30px;
+  box-shadow: 10px 5px 5px black;
 }
-  h4 {
-    font-size: 1.8rem;
-    font-weight: 700;
-    margin: 0;
-  }
+
 </style>
