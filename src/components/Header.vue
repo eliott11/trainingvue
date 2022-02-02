@@ -4,12 +4,14 @@
       <h3>Weekly sumup</h3>
       <h6>Get summary of your weekly online transactions here.</h6>
     </div>
-    <div class="headMenu">
-      <i class="bi bi-envelope-fill" fill="#0786db"></i>
-      <i class="bi bi-bell-fill"></i>
-      <i class="bi bi-person-circle"></i>
+    <div class="headmenu">
+      <div class="headmenu__icons">
+        <i class="bi bi-envelope-fill" fill="#0786db"></i>
+        <i class="bi bi-bell-fill"></i>
+        <i class="bi bi-person-circle"></i>
+      </div>
       <div>
-        <p>Eliott</p>
+        <p class="username"><b>Eliott</b></p>
         <p>Admin Account</p>
       </div>
     </div>
@@ -31,33 +33,51 @@ export default {
   align-items: center;
   position: relative;
   justify-content: space-between;
-  padding: 0 10px;
+  padding: 0;
 }
 h3 {
   font-size: 66px;
   font-weight: normal;
-  margin: -10px 0;
+  margin: 0 0 -20px 0;
   color: #404040;
+  line-height: 115%;
 }
 h6 {
   font-size: 2rem;
-  font-weight: lighter;
+  font-weight:lighter;
   margin: 0 auto;
+  color: #c7c7c7;
 }
-h6, div i, div p {
-  color: #C7C7C7;
+div.headmenu__icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-i .bi-person-circle {
-  color: rgb(19, 171, 241);
-}
-i {
+.bi-envelope-fill, .bi-bell-fill {
+  font-size: 1.4rem;
   margin-right: 20px;
+}
+.bi-person-circle {
+  font-size: 2rem;
+  margin-right: 10px;
+  color: #FFC145;
+  align-items: center;
+}
+.bi-envelope-fill, .bi-bell-fill, .bi-person-circle {
+  display: flex;
+  align-items: center;
+}
+.username {
+  color: black;
 }
 p {
   margin: 0 auto;
+  font-weight: lighter;
+  line-height: 90%;
 }
-.headMenu {
+.headmenu {
   display: flex;
   align-items: center;
+  color: #c7c7c7;
 }
 </style>

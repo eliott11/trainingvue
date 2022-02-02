@@ -1,5 +1,6 @@
 <template>
   <div>
+    New Transaction
   </div>
 </template>
 

@@ -7,7 +7,7 @@
 
 <script>
 import Menu from './components/Menu.vue'
-import Content from './components/Content.vue'
+import Content from './components/PageContent.vue'
 
 
 export default {

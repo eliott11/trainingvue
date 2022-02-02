@@ -1,7 +1,7 @@
 <template>
-  <div>
-    <p>hello</p>
-  </div>
+  <section class="cards">
+    <h4>Cards</h4>
+  </section>
 </template>
 
 <script>
@@ -15,7 +15,12 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-  div {
-    
+template {
+  border-radius: 30px;
+}
+  h4 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin: 0;
   }
 </style>

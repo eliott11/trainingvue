@@ -41,10 +41,10 @@ export default {
   flex-direction: column;
   justify-content: space-between;
   font-family: "Dongle";
-  width: 230px;
-  height: calc(100vh - 36px);
-  padding: 25px 0 10px 0;
-  border-right: solid 2px #c7c7c7 ;
+  width: 270px;
+  height: calc(100vh - 46px);
+  padding: 25px 0 20px 0;
+  border-right: solid 2px #c7c7c7;
 }
 .menu__topnav {
   display: flex;
@@ -75,16 +75,21 @@ export default {
 }
 ul {
   list-style-type: none;
-  padding: 10px 0px 0px 0px; /*haut droite bas gauche*/
+  padding: 10px 0px 0px 0px;
   margin: 0 auto;
 }
 li {
   list-style-type: none;
   list-style-position: outside;
-  margin: 5px 10px 0px 10px
+  margin: 5px 10px 0px 10px;
+  display: flex;
 }
 li i {
   margin-right: 15px;
+}
+.bi-graph-up, .bi-list-ul, .bi-credit-card, .bi-file-earmark, .bi-bookmark-star, .bi-gear {
+  display: flex;
+  align-items: center;
 }
 a {
   color: #C7C7C7;

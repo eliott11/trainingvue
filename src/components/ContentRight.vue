@@ -1,8 +1,5 @@
 <template>
-  <div class="content">
-    <Header />
-    <Cards />
-    <TransactionHistory />
+  <div class="content-right">
     <Pricing />
     <Stats />
     <NewTransaction />
@@ -10,19 +7,13 @@
 </template>
 
 <script>
-import Header from '@/components/Header.vue'
-import Cards from '@/components/Cards.vue'
-import TransactionHistory from '@/components/TransactionHistory.vue'
 import Pricing from '@/components/Pricing.vue'
 import Stats from '@/components/Stats.vue'
 import NewTransaction from '@/components/NewTransaction.vue'
 
 export default {
-  name: 'Content',
+  name: 'ContentRight',
   components: {
-    Header,
-    Cards,
-    TransactionHistory,
     Pricing,
     Stats,
     NewTransaction
@@ -32,13 +23,10 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-  template {
+  .content-right {
+    width: 50%;
     display: flex;
     float: right;
-  }
-  .content {
-    width: 100%;
     flex-direction: column;
-    padding-left: 10px;
   }
 </style>
