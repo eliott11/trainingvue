@@ -1,7 +1,33 @@
 <template>
-  <div>
-    <h4>Princing</h4>
-  </div>
+  <section class="pricing">
+        <h4>Goals</h4>
+        <div>
+            <div>
+                <div>
+                    <div>Price $</div>
+                    <div>Date</div>
+                </div>
+                <div>Logo</div>
+                <div>Holidays</div>
+            </div>
+            <div>
+                <div>
+                    <div>Price $</div>
+                    <div>Date</div>
+                </div>
+                <div>Logo</div>
+                <div>Rent</div>
+            </div>
+            <div>
+                <div>
+                    <div>Price $</div>
+                    <div>Date</div>
+                </div>
+                <div>Logo</div>
+                <div>Games</div>
+            </div>
+        </div>
+    </section>
 </template>
 
 <script>
