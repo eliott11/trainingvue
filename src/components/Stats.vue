@@ -1,7 +1,19 @@
 <template>
-  <div>
-    <h4>Stats</h4>
-  </div>
+  <section class="stats">
+    <h4>Outcome Statistics</h4>
+    <div>
+      <div>Logo</div>
+      <div>Progression</div>
+      <div>Shopping</div>
+      <div>%</div>
+    </div>
+    <div>
+      <div>Logo</div>
+      <div>Progression</div>
+      <div>Shopping</div>
+      <div>%</div>
+    </div>
+  </section>
 </template>
 
 <script>

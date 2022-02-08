@@ -79,8 +79,8 @@ ul {
   margin: 0 auto;
 }
 li {
-  list-style-type: none;
-  list-style-position: outside;
+  /* list-style-type: none; */
+  /* list-style-position: outside; */
   margin: 5px 10px 0px 10px;
   display: flex;
 }

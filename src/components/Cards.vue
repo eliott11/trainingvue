@@ -1,13 +1,23 @@
 <template>
-  <section class="cards">
-    <h4>Cards</h4>
+  
+<section class="cards">
     <div>
-      <div class="card">
-
-      </div>
-      <div class="card-stats"></div>
+        <h4>Cards</h4>
+        <div>
+            <div>Carte</div>
+            <div>
+                <div>Barre de progression</div>
+                <div>Weekly payment limit</div>
+            </div>
+        </div>
+        <div>
+            <div>Current Balance</div>
+            <div>Income</div>
+            <div>Outcome</div>
+            <div>Deactivate Card</div>
+        </div>
     </div>
-  </section>
+</section>
 </template>
 
 <script>
