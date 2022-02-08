@@ -1,5 +1,5 @@
 <template>
-  <section class="newTran">
+  <section class="newTran block-shadow">
     <h4>New Transaction</h4>
       <div>
         <div>

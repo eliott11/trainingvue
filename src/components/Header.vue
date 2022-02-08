@@ -34,17 +34,26 @@ export default {
   justify-content: space-between;
 }
 h3 {
-  font-size: 66px;
-  font-weight: normal;
-  margin: 0 0 -20px 0;
+  
+  margin: 0 auto;
   color: #404040;
   line-height: 115%;
+  font-family: Suprema;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 43.3726px;
+  line-height: 53px;
 }
 h6 {
-  font-size: 2rem;
-  font-weight:lighter;
+  /* font-size: 2rem;
+  font-weight:lighter; */
   margin: 0 auto;
-  color: #c7c7c7;
+  color: #AEAEAE;
+  font-family: Suprema;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16.0564px;
+  line-height: 20px;
 }
 div.headmenu__icons {
   display: flex;

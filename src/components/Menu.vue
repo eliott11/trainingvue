@@ -40,11 +40,10 @@ export default {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  font-family: "Dongle";
   width: 220px;
   height: calc(100vh - 46px);
   padding: 25px 0 20px 0;
-  border-right: solid 2px #c7c7c7;
+  border-right: solid 2px #EBEBEB;
 }
 .menu__topnav {
   display: flex;
@@ -61,9 +60,14 @@ export default {
   margin: 5px;
 }
 .titlelogo {
-  font-weight: bolder;
-  color: #0f4366;
-  font-size: 1.8rem;
+font-style:normal;
+font-weight: bold;
+font-size: 16.7475px;
+line-height: 21px;
+display: flex;
+align-self: center;
+
+color: #0F4264;
 }
 .cloudlogo img {
   height: 25px;
@@ -71,7 +75,10 @@ export default {
 }
 .menu__navmenu {
   color: #C7C7C7;
-  font-size: 1.5rem;
+  font-family: Suprema;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 25px;
 }
 ul {
   list-style-type: none;
@@ -99,10 +106,14 @@ a {
   text-align: center;
 }
 .menu__navdescription p {
-  font-size: 1em;
   margin-block-start: -5px;
   margin-block-end: 10px;
-  line-height: 0.7em;
+  
+  font-family: Suprema;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 8.7511px;
+  line-height: 11px;
 }
 .menu__navdescription button {
   background-color: #FFC145;
@@ -110,7 +121,7 @@ a {
   padding: 10px;
   font-size: 0.8em;
   border: 2px solid #FFC145;
-  border-radius: 14px;
+  border-radius: 13.617px;
   transition-duration: 0.2s;
   padding: 10px 10px;
 }
