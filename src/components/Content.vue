@@ -54,14 +54,14 @@ export default {
     margin-right: 15px;
     /* grid-template-rows: 1fr 1fr 1fr; */
   }
-  .cards-content, .transhosto-content {
+  .cards-content, .transhisto-content {
     height: 50%;
   }
   .pricing-content, .stats-content {
     height: 35%;
   }
   .newtransac-content {
-    height: 20%;
+    height: 30%;
   }
   .content-right {
     width: 50%;
@@ -69,14 +69,6 @@ export default {
     float: right;
     flex-direction: column;
     margin-left: 15px;
-    justify-content: space-around;
-  }
-  h4 {
-  font-family: Suprema;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 20.1118px;
-  line-height: 25px;
-  margin: 10px 0;
+    justify-content: space-between;
   }
 </style>

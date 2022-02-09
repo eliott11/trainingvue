@@ -1,29 +1,33 @@
 <template>
-  <section class="newTran block-shadow">
+  <section class="newtran block-shadow">
     <h4>New Transaction</h4>
-      <div>
-        <div>
-          <div>
-            <div>Avatar</div>
+      <div class="newtrans-section">
+        <div class="transcontent-left">
+          <div class="content-top">
+            <div>
+              <div>Photo</div>
+              <div>Name</div>
+            </div>
+            <div>
+                <div>Photo</div>
                 <div>Name</div>
             </div>
             <div>
-                <div>Avatar</div>
-                <div>Name</div>
-            </div>
-            <div>
-                <div>Avatar</div>
+                <div>Photo</div>
                 <div>Name</div>
             </div>
           </div>
-          <div>
+          <div class="btn-bottom">
               <input type="$">
               <button>Send Transfert ></button>
           </div>
         </div>
-        <div>
-            <button>Get great loan !</button>
+        
+        <div class="transcontent-right">
+            <div>Get great loan! ></div>
         </div>
+      </div>
+
   </section>
 </template>
 
@@ -38,5 +42,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
+.newtrans-section {
+  display: flex;
+}
 </style>
