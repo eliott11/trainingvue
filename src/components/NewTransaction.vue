@@ -5,16 +5,28 @@
         <div class="transcontent-left">
           <div class="content-top">
             <div>
-              <div>Photo</div>
+              <div class=photo>Photo</div>
               <div>Name</div>
             </div>
             <div>
-                <div>Photo</div>
-                <div>Name</div>
+              <div class=photo>Photo</div>
+              <div>Name</div>
             </div>
             <div>
-                <div>Photo</div>
-                <div>Name</div>
+              <div class=photo>Photo</div>
+              <div>Name</div>
+            </div>
+            <div>
+              <div class=photo>Photo</div>
+              <div>Name</div>
+            </div>
+            <div>
+              <div class=photo>Photo</div>
+              <div>Name</div>
+            </div>
+            <div>
+              <div class=photo>+</div>
+              <div>Add New</div>
             </div>
           </div>
           <div class="btn-bottom">
@@ -43,6 +55,15 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .newtrans-section {
+  display: flex;
+}
+.content-top {
+  display: flex;
+}
+.photo {
+  text-align: center;
+}
+.btn-bottom {
   display: flex;
 }
 </style>

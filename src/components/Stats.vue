@@ -6,8 +6,8 @@
 
       <div class="stats-shopping">
         <div><i class="bi bi-cart"></i></div>
-        <div>
-          <div class="progress mt-2">
+        <div class="mt-2 mb-2">
+          <div class="progress mb-1">
             <div class="progress-bar-shopping" role="progressbar" aria-valuenow="52" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
           <div class="shopping-title">Shopping</div>
@@ -17,8 +17,8 @@
 
       <div class="stats-electro">
         <div><i class="bi bi-truck"></i></div>
-        <div>
-          <div class="progress mt-2">
+        <div class="mt-2 mb-2">
+          <div class="progress mb-1">
             <div class="progress-bar-electro" role="progressbar" aria-valuenow="21" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
           <div class="electro-title">Electronics</div>
@@ -28,8 +28,8 @@
 
       <div class="stats-travels">
         <div><i class="fas fa-plane"></i></div>
-        <div>
-          <div class="progress mt-2">
+        <div class="mt-2 mb-2">
+          <div class="progress  mb-1">
             <div class="progress-bar-travels" role="progressbar" aria-valuenow="74" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
           <div class="travels-title">Travels</div>
@@ -57,11 +57,18 @@ export default {
   align-items: center;
   justify-content: space-between;
 }
-/* .shopping-title , .electro-title, .travels-title {
-  float: left;
-} */
+.shopping-title , .electro-title, .travels-title {
+  font-family: Suprema;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #AEAEAE;
+}
 .stats-\% {
   color: #696969;
+  margin-top: -20px;
+  font-family: 'Dongle', sans-serif;
+  font-size: 23.9789px;
 }
 .bi-cart, .bi-truck, .fa-plane {
   box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
@@ -81,7 +88,7 @@ export default {
   color: #70A6E8;
 }
 .progress {
-  height: 8px;
+  height: 10px;
   width: 380px;
 }
 .progress-bar-shopping {
