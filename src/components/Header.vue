@@ -1,16 +1,16 @@
 <template>
   <section class="header">
-    <div>
+    <div> <!--- titles --->
       <h3>Weekly sumup</h3>
       <h6>Get summary of your weekly online transactions here.</h6>
     </div>
-    <div class="headmenu">
-      <div class="headmenu__icons">
+    <div class="headmenu"> <!--- content right --->
+      <div class="headmenu__icons"> <!--- icons right --->
         <i class="bi bi-envelope-fill" fill="#0786db"></i>
         <i class="bi bi-bell-fill"></i>
         <i class="bi bi-person-circle"></i>
       </div>
-      <div>
+      <div> <!--- text right --->
         <p class="username"><b>Eliott</b></p>
         <p>Admin Account</p>
       </div>
@@ -27,14 +27,13 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.header {
+.header { /* text display */
   font-family: "Dongle";
   display: flex;
   padding: 0;
   justify-content: space-between;
 }
-h3 {
-  
+h3 { /* title 1 */
   margin: 0 auto;
   color: #404040;
   line-height: 115%;
@@ -44,7 +43,7 @@ h3 {
   font-size: 43.3726px;
   line-height: 53px;
 }
-h6 {
+h6 { /* title 2 */
   /* font-size: 2rem;
   font-weight:lighter; */
   margin: 0 auto;
@@ -55,35 +54,35 @@ h6 {
   font-size: 16.0564px;
   line-height: 20px;
 }
-div.headmenu__icons {
+.headmenu { /* content menu display */
+  display: flex;
+  align-items: center;
+  color: #c7c7c7;
+}
+div.headmenu__icons { /* icons display */
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.bi-envelope-fill, .bi-bell-fill {
+.bi-envelope-fill, .bi-bell-fill { /* icons size */
   font-size: 1.4rem;
   margin-right: 20px;
 }
-.bi-person-circle {
+.bi-person-circle {  /* icon size & color */
   font-size: 2rem;
   margin-right: 10px;
   color: #FFC145;
 }
-.bi-envelope-fill, .bi-bell-fill, .bi-person-circle {
+.bi-envelope-fill, .bi-bell-fill, .bi-person-circle { /* icons display */
   display: flex;
   align-items: center;
 }
-.username {
+.username { /* userame */
   color: black;
 }
-p {
+p { /* paragraphe */
   margin: 0 auto;
   font-weight: lighter;
   line-height: 90%;
-}
-.headmenu {
-  display: flex;
-  align-items: center;
-  color: #c7c7c7;
 }
 </style>

@@ -2,39 +2,45 @@
   <section class="stats">
     <h4>Outcome Statistics</h4>
 
-    <div class="stats-all">
+    <div class="stats-all"> <!--- class generale --->
 
-      <div class="stats-shopping">
+      <div class="stats-shopping"> <!--- class card --->
         <div><i class="bi bi-cart"></i></div>
-        <div class="mt-2 mb-2">
-          <div class="progress mb-1">
-            <div class="progress-bar-shopping" role="progressbar" aria-valuenow="52" aria-valuemin="0" aria-valuemax="100"></div>
+        <div class="mt-1 mb-1"> <!--- margin card content --->
+          <div class="bar-progress">
+            <div class="progress mb-1"> <!--- progress bar --->
+              <div class="progress-bar-shopping" role="progressbar" aria-valuenow="52" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <div class="stats-pourcentage">52%</div> <!--- % progress --->
           </div>
           <div class="shopping-title">Shopping</div>
         </div>
-        <div class="stats-%">52%</div>
       </div>
 
-      <div class="stats-electro">
+      <div class="stats-electro"> <!--- class card --->
         <div><i class="bi bi-truck"></i></div>
-        <div class="mt-2 mb-2">
-          <div class="progress mb-1">
-            <div class="progress-bar-electro" role="progressbar" aria-valuenow="21" aria-valuemin="0" aria-valuemax="100"></div>
+        <div class="mt-1 mb-1"> <!--- margin card content --->
+          <div class="bar-progress">
+            <div class="progress mb-1"> <!--- progress bar --->
+              <div class="progress-bar-electro" role="progressbar" aria-valuenow="21" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <div class="stats-pourcentage">21%</div> <!--- % progress --->
           </div>
           <div class="electro-title">Electronics</div>
         </div>
-        <div class="stats-%">21%</div>
       </div>
 
-      <div class="stats-travels">
+      <div class="stats-travels"> <!--- class card --->
         <div><i class="fas fa-plane"></i></div>
-        <div class="mt-2 mb-2">
-          <div class="progress  mb-1">
-            <div class="progress-bar-travels" role="progressbar" aria-valuenow="74" aria-valuemin="0" aria-valuemax="100"></div>
+        <div class="mt-1 mb-1"> <!--- margin card content --->
+          <div class="bar-progress">
+            <div class="progress  mb-1"> <!--- progress bar --->
+              <div class="progress-bar-travels" role="progressbar" aria-valuenow="74" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <div class="stats-pourcentage">74%</div> <!--- % progress --->
           </div>
           <div class="travels-title">Travels</div>
         </div>
-        <div class="stats-%">74%</div>
       </div>
 
     </div>
@@ -51,59 +57,64 @@ export default {
 </script>
 
 <style scoped>
-.stats-shopping, .stats-electro, .stats-travels {
+.stats-shopping, .stats-electro, .stats-travels { /* cards display */
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  height: 50px;
 }
-.shopping-title , .electro-title, .travels-title {
+.shopping-title , .electro-title, .travels-title { /* title description */
   font-family: Suprema;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   color: #AEAEAE;
 }
-.stats-\% {
+.stats-pourcentage { /* % */
   color: #696969;
-  margin-top: -20px;
   font-family: 'Dongle', sans-serif;
-  font-size: 23.9789px;
+  font-size: 26.98px;
+  margin-left: 10px;
 }
-.bi-cart, .bi-truck, .fa-plane {
+.bi-cart, .bi-truck, .fa-plane { /* property icons */
   box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
   border-radius: 3px;
   padding: 8px;
 }
-.bi-cart {
+.bi-cart { /* props icon & background */
   background: #FFEADA;
   color: #F8964C;
 }
-.bi-truck {
+.bi-truck { /* props icon & background */
   background: #DDF9E4;
   color: #22A447;
 }
-.fa-plane {
+.fa-plane { /* props icon & background */
   background: #E4F0FF;
   color: #70A6E8;
 }
-.progress {
-  height: 10px;
+.progress { /* progress bar general */
+  height: 9.47px;
   width: 380px;
 }
-.progress-bar-shopping {
+.progress-bar-shopping { /* progress bar shopping filling */
   background: linear-gradient(270deg, #FCAE73 0%, #F79042 99.18%);
   border-radius: 10.7766px;
   width: 52%;
 }
-.progress-bar-electro {
+.progress-bar-electro { /* progress bar electro filling */
   background: linear-gradient(90deg, #209D43 0%, #2BC255 100%);
   border-radius: 10.7766px;
   width: 21%;
 }
-.progress-bar-travels {
+.progress-bar-travels { /* progress bar travels filling */
   background: #70A6E8;
   border-radius: 10.7766px;
   width: 74%;
+}
+.bar-progress { /* bar center */
+  display: flex;
+  align-items: center;
 }
 </style>

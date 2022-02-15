@@ -27,7 +27,7 @@ npm run lint
 ### Icons source
 Link : 
 [Bootstrap Icons Library](https://icons.getbootstrap.com/)
-[Font Awesome Icons Library](https://icons.getbootstrap.com/)
+[Font Awesome Icons Library](https://fontawesome.com/icons/)
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).

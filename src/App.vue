@@ -1,7 +1,7 @@
 <template>
-  <div class="page">
+  <div class="page"> <!--- page including all content --->
     <Menu/>
-    <div class="margin-content">
+    <div class="margin-content"> <!--- content --->
       <Header />
       <Content />
     </div>
@@ -25,17 +25,13 @@ export default {
 </script>
 
 <style scoped>
-.page {
-  font-family: Suprema;
+.page { /* display page */
   display: flex;
   /* max-height: 100vh;
   overflow: auto; */
 }
-.margin-content {
+.margin-content { /* margin content */
   padding: 0 30px 0 30px;
   flex-grow:1;
 }
-/* .margin-header {
-  width: 100%;
-} */
 </style>
