@@ -6,7 +6,7 @@
 
       <div class="stats-shopping"> <!--- class card --->
         <div><i class="bi bi-cart"></i></div>
-        <div class="mt-1 mb-1"> <!--- margin card content --->
+        <div class="mt-1 mb-1 bloc-bar"> <!--- margin card content --->
           <div class="bar-progress">
             <div class="progress mb-1"> <!--- progress bar --->
               <div class="progress-bar-shopping" role="progressbar" aria-valuenow="52" aria-valuemin="0" aria-valuemax="100"></div>
@@ -76,6 +76,7 @@ export default {
   font-family: 'Dongle', sans-serif;
   font-size: 26.98px;
   margin-left: 10px;
+  line-height: 10px; /* space line */
 }
 .bi-cart, .bi-truck, .fa-plane { /* property icons */
   box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);

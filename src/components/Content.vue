@@ -38,6 +38,7 @@ export default {
   .pagecontent { /* content general */
     display: flex;
     flex-direction: column;
+    margin-top: 10px;
   }
   .content-pagecontent { /* content in page */
     display: flex;

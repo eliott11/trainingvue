@@ -1,6 +1,6 @@
 <template>
   <section class="pricing">
-        <h4>Goals</h4>
+        <h4>Goals <span><i class="bi bi-plus-circle-fill"></i></span></h4>
         <div class="goals-content"> <!--- class generale --->
             <div class="holiday block-shadow"> <!--- general class card --->
                 <div class="price-stats"> <!--- card content top--->
@@ -47,6 +47,17 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.bi-plus-circle-fill { /* icon + */
+    font-size: 15px;
+    color: #FFC145;
+}
+i.bi-plus-circle-fill::before {
+    background-color: black;
+}
+/* span .bi-plus-circle-fill {
+    background-color: black;
+    margin: 5px;
+} */
 .goals-content { /* cards general display */
     display: flex;
     justify-content: space-between;

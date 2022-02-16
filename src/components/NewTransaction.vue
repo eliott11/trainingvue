@@ -60,6 +60,7 @@ export default {
   display: flex;
   color: #404040;
   justify-content: space-between;
+  height: 100%;
 }
 .transcontent-left { /* content left */
   width: 70%;
