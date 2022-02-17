@@ -56,7 +56,7 @@ export default {
 <style scoped>
 table { /* table */
     width:-webkit-fill-available;
-    height: 215px;
+    height: 100%;
 }
 th { /* head table */
     text-align: start;
