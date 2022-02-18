@@ -50,6 +50,7 @@ export default {
 .bi-plus-circle-fill { /* icon + */
     font-size: 15px;
     color: #FFC145;
+    border-radius: 50%;
 }
 i.bi-plus-circle-fill::before {
     background-color: black;
@@ -61,7 +62,7 @@ i.bi-plus-circle-fill::before {
 .goals-content { /* cards general display */
     display: flex;
     justify-content: space-between;
-    height: 145px;
+    height: 80%;
 }
 .holiday, .renovation, .game { /* cards display content */
     display: flex;

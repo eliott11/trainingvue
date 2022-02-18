@@ -1,9 +1,7 @@
 <template>
   <section class="cards block-shadow">
+    <h4>Cards</h4>
     <div class="content-card">
-
-      <h4>Cards</h4>
-
 
       <div class="top-info"> <!--- Infos top --->
 
@@ -26,7 +24,24 @@
             </div>
           </div>
         </div>
-        <div class="card-stats"> <!--- Stats card right --->
+        
+        <div class="bot-info"> <!--- Infos bottom --->
+          <div>
+            <div class="bar-progress">
+              <div class="progress  mb-1"> <!--- progress bar --->
+                <div class="progress-bar-card" role="progressbar" aria-valuenow="74" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <div class="stats-bar">
+              <span>Weekly payment limit</span>
+              <span>$350.60 / $4000</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      
+      <div class="card-stats"> <!--- Stats card right --->
           <div class="stats-bloc">
             <div class="balance">$ 2850.75</div>
             <div class="subtitle-stats">Current Balance</div>
@@ -39,30 +54,13 @@
             <div class="outcome">$ 350.60</div>
             <div class="subtitle-stats">Outcome</div>
           </div>
-        </div>
-        
-      </div>
-      
-
-      <div class="bot-info"> <!--- Infos bottom --->
-        <div>
-          <div class="bar-progress">
-            <div class="progress  mb-1"> <!--- progress bar --->
-              <div class="progress-bar-card" role="progressbar" aria-valuenow="74" aria-valuemin="0" aria-valuemax="100"></div>
+          <div class="btn-desactivate">
+            <!-- <i class="bi bi-toggle-off"></i> -->
+            <div class="btn-ext">
+              <div class="btn-int"></div>
             </div>
+            <span>Deactivate Card</span>
           </div>
-          <div class="stats-bar">
-            <span>Weekly payment limit</span>
-            <span>$350.60 / $4000</span>
-          </div>
-        </div>
-        <div class="btn-desactivate">
-          <!-- <i class="bi bi-toggle-off"></i> -->
-          <div class="btn-ext">
-            <div class="btn-int"></div>
-          </div>
-          <span>Deactivate Card</span>
-        </div>
       </div>
 
     </div>
@@ -79,9 +77,12 @@ export default {
 </script>
 
 <style scoped>
-.cards {
+.content-card {
   margin-bottom: 15px;
+  display: flex;
+  height: 100%;
 }
+/*
 .content-card {
   display: grid;
   grid-template-rows: 30px 70% 15%;
@@ -95,7 +96,6 @@ export default {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  
   width: 65%;
   background: linear-gradient(180deg, #197BBD 0%, #3391D0 100%);
   border-radius: 26px;
@@ -103,7 +103,7 @@ export default {
 .card-account, .card-number, .bot-card {
   margin-left: 15px;
 }
-/* Stats card right */
+Stats card right
 .balance {
   color: #197BBD;
 }
@@ -125,7 +125,7 @@ export default {
   font-size: 14px;
   line-height: 17px;
 }
-/*  */
+
 .card-stats {
   display: flex;
   flex-direction: column;
@@ -138,7 +138,7 @@ export default {
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
+} */
 .btn-ext {
   background: #EBEBEB;
   border-radius: 13.617px;
@@ -153,7 +153,7 @@ export default {
 }
 .btn-int, .btn-ext {
   align-self: flex-end;
-}
+} /*
 .bot-info {
   display: grid;
   grid-template-columns: 65% 35%;
@@ -165,14 +165,14 @@ export default {
 .bot-card {
   display: flex;
 }
-/* progressbar */
-.progress { /* progress bar general */
+progressbar
+.progress { progress bar general
   height: 9.47px;
   width: 380px;
 }
-.progress-bar-card { /* progress bar travels filling */
+.progress-bar-card { progress bar travels filling
   background: #70A6E8;
   border-radius: 10.7766px;
   width: 74%;
-}
+} */
 </style>
