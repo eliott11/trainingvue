@@ -1,5 +1,5 @@
 <template>
-    <section class="transactionhistory block-shadow">
+    <section class="transactionHistory block-shadow">
         <h4>Transaction History</h4>
         <table> <!--- table --->
             <thead> <!--- head table--->
@@ -56,7 +56,7 @@ export default {
 <style scoped>
 table { /* table */
     width:-webkit-fill-available;
-    height: 100%;
+    height: 90%;
 }
 th { /* head table */
     text-align: start;

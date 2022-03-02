@@ -80,17 +80,13 @@ export default {
 .content-card {
   margin-bottom: 15px;
   display: flex;
-  height: 100%;
-}
-/*
-.content-card {
-  display: grid;
-  grid-template-rows: 30px 70% 15%;
+  height: 85%;
+  justify-content: space-between;
 }
 .top-info {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
-  color: #ffffff;
 }
 .card-user {
   display: flex;
@@ -99,11 +95,14 @@ export default {
   width: 65%;
   background: linear-gradient(180deg, #197BBD 0%, #3391D0 100%);
   border-radius: 26px;
+  color: #ffffff;
 }
+
+
 .card-account, .card-number, .bot-card {
   margin-left: 15px;
 }
-Stats card right
+/* Stats card right */
 .balance {
   color: #197BBD;
 }
@@ -125,12 +124,13 @@ Stats card right
   font-size: 14px;
   line-height: 17px;
 }
-
 .card-stats {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: flex-end;
 }
+
 .card-stats, .btn-desactivate {
   text-align: end;
 }
@@ -138,7 +138,7 @@ Stats card right
   display: flex;
   flex-direction: column;
   justify-content: center;
-} */
+}
 .btn-ext {
   background: #EBEBEB;
   border-radius: 13.617px;

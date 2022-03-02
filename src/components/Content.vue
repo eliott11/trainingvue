@@ -22,7 +22,7 @@ import Stats from '@/components/Stats.vue'
 import NewTransaction from '@/components/NewTransaction.vue'
 
 export default {
-  name: 'PageContent',
+  name: 'Content',
   components: {
     Cards,
     TransactionHistory,
@@ -54,7 +54,7 @@ export default {
     /* grid-template-rows: 1fr 1fr 1fr; */
   }
   .cards-content, .transhisto-content { /* content left height */
-    height: 50%;
+    height: 49%;
   }
   .pricing-content, .stats-content { /* content right height */
     height: 35%;
