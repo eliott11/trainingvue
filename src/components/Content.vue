@@ -51,7 +51,6 @@ export default {
     flex-direction: column;
     justify-content: space-between;
     margin-right: 5px;
-    /* grid-template-rows: 1fr 1fr 1fr; */
   }
   .cards-content, .transhisto-content { /* content left height */
     height: 49%;
@@ -70,7 +69,4 @@ export default {
     margin-left: 5px;
     justify-content: space-between;
   }
-  /* *, ::after, ::before {
-    box-sizing: initial;
-  } */
 </style>
